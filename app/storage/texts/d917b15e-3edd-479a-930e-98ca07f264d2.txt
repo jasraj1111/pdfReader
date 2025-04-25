@@ -1,0 +1,52 @@
+Summary / Role Purpose 
+Join the Ansys Student Internship Program to apply your education to solve real world 
+engineering problems, advance career skills and experience work at Ansys. This role involves 
+assisting in DevOps/MLOps activities around Code-generation solutions using LLMs for 
+different PyAnsys modules and documenting these processes for a broader audience. The 
+Internship/Co-op will also provide you with an opportunity to interact with Ansys global leaders 
+and will run for 4-6 Months as per your institution’s guidelines. 
+  
+Key Duties and Responsibilities 
+• 
+Assist in the development and deployment of PyAnsys chat applications for different 
+modules working with a cross-regional team. 
+• 
+Document the creation process and best practices in a clear, comprehensive manner 
+for internal and external consumption, and to feed AI tools developed in the team. 
+• 
+Test the web applications deployed with containerization technologies like Docker to 
+ensure they function as expected across different environments and troubleshoot any 
+issues that arise. 
+• 
+Participate in team meetings and reviews to discuss containerization strategies, 
+challenges from engineers to create web applications, and upcoming tasks. 
+  
+Minimum Education/Certification Requirements and Experience 
+• 
+Pursuing a Bachelor’s/Master’s degree in Computer Science, Information Technology, 
+Mathematics or Quantitative Sciences with following respective years of experience.  
+• 
+Strong knowledge of Python with Frontend framework experience. 
+• 
+Ability to multitask and manage multiple tasks in a fast-paced environment. 
+• 
+Motivated to learn. Strong problem solving, communication and time management 
+skills 
+• 
+Demonstrated skills in writing, understanding, and presenting in fluent English 
+  
+Preferred Qualifications and Skills 
+• 
+Knowledge of computer languages such as Python, JavaScript, Angular 
+• 
+Proficiency in Containerization - Familiarity with containerization technologies like 
+Docker. 
+• 
+Strong understanding of Git/GitHub (including GitHub Actions) 
+• 
+Experience working with machine learning frameworks as well as large-language models 
+(LLMs). 
+• 
+Currently pursuing an engineering degree (Bachelor’s, M.S. or Ph.D.) at an accredited 
+Indian university. 
+ 

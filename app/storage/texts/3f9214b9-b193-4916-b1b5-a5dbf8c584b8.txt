@@ -1,0 +1,49 @@
+Jasraj Shendge
+Jaipur | jasrajshen2020@gmail.com | 9145346403 |
+linkedin.com/in/jasraj-shendge/
+github.com/jasraj1111| leetcode/Jasraj
+Education
+Manipal University Jaipur, BTech in Computer Science and Engineering
+Sept 2022 – May 2026
+• CGPA: 9.07/10
+• Coursework: Data Structures and Algorithm, Operating systems, Relational Database Managements, Computer
+Networks, Computer Organization and architecture, Theory of Computation, Predictive Analysis
+Vivekanand Arts, Sardar Dalip Singh Commerce and Science College, Class 12th
+June 2020 – May 2022
+• Percentage: 84.67
+Skills and Certifications
+Languages: C++, C, Python, Java, SQL, JavaScript,
+Technologies: Power BI, React.Js, Node.Js, TaildWindCSS, NumPy, Pandas, MsExcel, MySQL, MongoDB, Solidity,
+Git, Github
+Certifications: NPTEL Design and Analysis of Algorithms(IIT Madras), NPTEL Software Testing, Power BI Job
+Simulation(PwC), Getting Started with Enterprise-grade AI(IBM SkillsBuild), CCNAv7: Switching, Routing, and
+Wireless Essentials and Enterprise Networking, Security, and Automation(Cisco), Java Fundamentals(Oracle
+Academy), Python for Data Science, AI and Development(Coursera)
+Experience
+Full Stack Web Developer, EazyByts Web Solutions – Meerut, UP
+Jan 2025
+• Worked closely with the web development team to contribute to dynamic, client-facing projects, enhancing user
+experience and functionality and gained comprehensive experience in the entire web development lifecycle.
+• Improved proficiency in key web development technologies such as HTML, CSS, JavaScript, and frameworks like
+React.js and Node.js by working on hands-on projects in a collaborative environment.
+Projects
+Dynamic Pricing Optimization for Online Grocery Sales
+Evently
+• Developed a machine learning-driven dynamic pricing model for grocery products using Random Forest,
+XGBoost, and Linear Regression, optimizing revenue and sales for an online grocery platform. Implemented
+Price Elasticity of Demand (PED) analysis to classify products as elastic, inelastic, or unit elastic based on their
+price sensitivity. Integrated Reinforcement Learning (RL) for real-time dynamic pricing adjustments,
+considering factors like demand fluctuations, seasonality, and competition.
+AI-Driven Crypto Trading Bot based on Social Media Sentiment
+GitHub
+• Developed an AI-powered crypto trading bot integrating Sentiment Analysis with automated smart contract
+execution. Implemented a backend pipeline for collecting and preprocessing Reddit sentiment data, generating
+BUY/SELL signals using NLP, and backtesting trading strategies with technical indicators like RSI, SMA, and
+ATR. Optimized stop-loss, take-profit, and sentiment thresholds for risk management. Built and deployed a
+Solidity-based TradingBot.sol smart contract.
+Blockchain-Based Storage Platform (Secure It):
+• Developed a decentralized application (DApp) utilizing Ethereum blockchain technology for secure personal
+data management. Key features include blockchain-based user authentication, secure data upload and storage,
+permission management, audit trails for data access, and a compensation simulation for users who share their
+data.
+• Tools Used: Solidity (for smart contracts), React.Js, Node.Js, Express.Js, Web3.Js, MongoDB, MetaMask

@@ -93,7 +93,8 @@ pdf-chatbot/
 ## 📸 Screenshots
 
 ### Upload PDF & Chat
-*Insert Screenshot Here*
+![image](https://github.com/user-attachments/assets/b8f3c745-dc33-48d8-9062-88cfc9e4d683)
+
 
 ## 🧠 How it works
 * **Upload PDF** ➔ Stored in `/storage/pdfs/`

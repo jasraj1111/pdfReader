@@ -1,112 +1,102 @@
 # 📄 PDF Chatbot (FastAPI + React)
 
-This project allows you to **upload a PDF**, and **ask questions** about its contents through a simple **chat interface**.
+This project enables users to **upload PDFs** and **interact** with the document content through an elegant **chat interface**, powered by Google's Gemini AI.
 
-## Built with:
-* ⚡ **FastAPI** (Backend)
-* ⚛️ **React + Vite** (Frontend)
-* 🎨 **CSS** for styling
-* 📄 **PyMuPDF** for PDF text extraction
+![alt text](<Screenshot 2025-11-02 002210.png>)
+![alt text](image.png)
 
-## ✨ Features
-* Upload and process PDF files.
-* Ask questions about the uploaded document.
-* Clean, modern chat interface.
-* Smooth backend-frontend integration.
+## 🌟 Core Features
+* Upload and process PDF documents
+* Interactive Q&A with document content
+* Semantic search for relevant context
+* Modern, gradient-themed UI
+* Real-time chat experience
 
 ## 🛠️ Tech Stack
 
-| Frontend | Backend |
-|----------|---------|
-| React + Vite | FastAPI (Python) |
-| Normal CSS | Uvicorn Server |
-| Fetch API | PyMuPDF, FastAPI |
+### Frontend
+- React + Vite
+- Modern CSS with gradient themes
+- Fetch API for backend communication
 
-## 📦 Setup Instructions
+### Backend
+- FastAPI (Python)
+- Sentence Transformers for semantic search
+- Google Gemini AI for question answering
+- PyMuPDF for PDF processing
 
-### 1. Clone the Repository
+## 📦 Project Structure
 
-```bash
-git clone https://github.com/your-username/pdf-chatbot.git
-cd pdf-chatbot
+```
+pdfReader/
+├── backend/
+│   ├── app/
+│   │   └── utils/
+│   │       ├── pdf_utils.py
+│   │       └── qa_engine.py
+│   ├── main.py
+│   └── requirements.txt
+│
+├── pdf-qa-frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Chat.jsx
+│   │   │   ├── ChatBubble.jsx
+│   │   │   ├── FileUpload.jsx
+│   │   │   ├── Header.jsx
+│   │   │   └── MessageInput.jsx
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
 ```
 
-### 2. Backend Setup (FastAPI)
+## 🚀 Setup Instructions
+
+### Backend Setup
 
 ```bash
-# Create and activate a virtual environment
+cd backend
 python -m venv venv
-source venv/bin/activate  # Mac/Linux
-# venv\Scripts\activate  # Windows
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
 
-# Install dependencies
-pip install fastapi uvicorn python-multipart PyMuPDF
+# Set up environment variables
+# Create .env file with:
+GOOGLE_API_KEY=your_gemini_api_key
+
+# Start server
+uvicorn main:app --reload
 ```
 
-✅ Start the FastAPI server:
+### Frontend Setup
 
 ```bash
-uvicorn main:app --reload --port 8000
-```
-
-### 3. Frontend Setup (React + Vite)
-
-```bash
-# Move to frontend directory (if split), else stay in project root
-cd frontend
-
-# Install dependencies
+cd pdf-qa-frontend
 npm install
-
-# Start the development server
 npm run dev
 ```
 
-React app will run on http://localhost:5173.
+## 🧠 How It Works
 
-## ⚙️ Project Structure
+1. **PDF Upload**: User uploads PDF through modern UI
+2. **Text Processing**: 
+   - Backend extracts text using PyMuPDF
+   - Text is processed for semantic search
 
-```
-pdf-chatbot/
-├── backend/
-│   ├── app/
-│   │   ├── pdf_utils.py
-│   │   ├── qa_engine.py
-│   │   └── models.py
-│   ├── main.py
-│   └── storage/
-│       ├── pdfs/
-│       └── texts/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Header.jsx
-│   │   │   ├── Chat.jsx
-│   │   │   ├── MessageInput.jsx
-│   │   │   └── FileUpload.jsx
-│   │   ├── App.jsx
-│   │   └── index.css
-│   └── vite.config.js
-└── README.md
-```
+3. **Question Answering**:
+   - Uses Sentence Transformers to find relevant context
+   - Gemini AI generates accurate answers
+   - Real-time chat interface updates
 
-## 📸 Screenshots
+## 🎨 UI Features
+- Gradient-themed components
+- Smooth animations
+- Responsive design
+- Custom scrollbars
+- Modern chat bubbles
 
-### Upload PDF & Chat
-![image](https://github.com/user-attachments/assets/b8f3c745-dc33-48d8-9062-88cfc9e4d683)
+## 🛡️ License
+MIT License - Feel free to use and modify!
 
-
-## 🧠 How it works
-* **Upload PDF** ➔ Stored in `/storage/pdfs/`
-* **Text extracted** ➔ Saved in `/storage/texts/`
-* **Ask questions** ➔ Load the text, process it, and answer
-* **Chat UI** ➔ Displays user and AI messages cleanly.
-
-## 🚀 Future Improvements
-* Connect to OpenAI, HuggingFace or custom LLMs.
-* Add multi-file management.
-* Enhance the chat experience (loader animations, error handling, etc.).
-* Improve document search with embeddings.
-
-## 🛡 License
-This project is licensed under the **MIT License**. Feel free to fork, improve, and contribute! 🤝
+## 🤝 Contributing
+Contributions welcome! Please feel free to submit pull requests.

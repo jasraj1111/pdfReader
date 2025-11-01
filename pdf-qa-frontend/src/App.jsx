@@ -39,7 +39,6 @@ function App() {
   return (
     <div className="app" style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <Header onUploadSuccess={handleUploadSuccess} pdfName={pdfName} />
-      {/* <FileUpload onUploadSuccess={handleUploadSuccess} /> */}
       <Chat messages={messages} />
       <MessageInput onSend={sendMessage} />
     </div>

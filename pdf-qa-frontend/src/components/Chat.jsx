@@ -1,3 +1,4 @@
+import './Chat.css'
 import ChatBubble from './ChatBubble';
 
 export default function Chat({ messages }) {
